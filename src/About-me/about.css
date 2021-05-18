@@ -1,0 +1,93 @@
+.about-wrapper{
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bout-me{
+    font-size: 4vw;
+    margin-left: 2vw;
+}
+
+.pic{
+    display: flex;
+	width:5rem; 
+    margin-left: 2vw;
+		
+}
+
+    .name{
+    
+        font-weight: bolder;
+    }
+
+    .about-me{
+            display: flex;
+            font-size: 3vw;
+            margin-left:12vw;
+            margin-right:1vw;
+            float: left;
+            color: black;
+    }
+
+        .wma{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 2vw;
+            margin-left:5vw;
+            margin-right:10vw;
+            color: whitesmoke;
+        }  
+    
+    
+        .help{
+            font-size: 1.4rem;
+            /*color:blanchedalmond ; /*dark mode*/
+            color: rgb(32, 40, 77);
+            font-family: 'Source Code Pro', monospace;
+            border-radius: 0.2em;
+            margin-left:15vw ;
+            margin-right:8vw ;
+        }
+
+
+
+@media(max-width:1200px){
+
+    .about-wrapper{
+        margin-top: 20vw;
+      
+    }
+
+    .about-container{
+        margin-left:8vw;
+    } 
+    
+    
+    .about-me{
+        font-size: 6vw;
+       
+    }
+
+    .bout-me{
+        font-size: 10vw;
+
+    }
+
+   
+
+    .help{
+        
+        font-size: 5vw;
+        font-family: 'Source Code Pro', monospace;
+        border-radius: 0.2em;
+        margin-left:15vw ;
+        margin-right:1vw ;
+
+    }
+
+   
+}

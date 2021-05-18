@@ -1,0 +1,46 @@
+    .foot{
+        background:rgb(20, 19, 19);
+        margin-top: 10vw;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .mn{
+        color: white;
+        /*margin-right: 15vw;*/
+    }
+
+
+    .ft{
+        color: white;
+    
+    } 
+
+@media(max-width:1200px){
+
+    .foot{
+        display: flex;
+        width: 100vw;
+        margin-top: 35vw;
+        
+    }
+    
+
+    .mn{
+        
+        font-size: 5vw;
+        
+
+    }
+
+
+    .ft{
+        display: flex;
+        font-size: 5vw;
+        margin-left: 5vw;
+        
+        
+    }
+
+}

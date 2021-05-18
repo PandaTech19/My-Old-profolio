@@ -1,0 +1,147 @@
+.projects-body{
+    display: flex;
+    margin-top: 8vw;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ .icon3{
+    margin-left: 2vw;
+    font-size: 4vw;
+    margin-top: 0.5vw;
+		
+  }
+
+
+ .myp{
+     display: flex;
+     font-size: 3vw;
+     margin-left:12vw;
+     margin-right:1vw;
+     float: left;
+     color: black;
+    }
+
+.project-text{
+    display: flex;
+    margin-top: 2vw;
+    margin-left:12vw;
+    margin-right:1vw;
+    flex-direction: column;
+
+}
+
+.name-site{
+
+    color: black;
+    font-size: 3vw;
+    margin-left: 10vw;
+    display: flex;
+    font-family: 'Teko', sans-serif;
+}
+
+.name-type{
+    color: black;
+    font-size: 3vw;
+    margin-left: 2vw;
+    display: flex;
+    font-family: 'Teko', sans-serif;
+} 
+
+.about-website{
+    
+   /* color:blanchalmond ;/*dark mode*/
+   color: rgb(32,44,77);
+    font-size: 2vw;
+    margin-left: 2vw;
+    margin-right:50vw;
+    display: flex;
+    font-family: 'Cormorant Garamond', serif;
+    flex-direction: row;
+
+}
+
+.split{ 
+    margin-top: 5vw;
+}
+
+.sites{
+    display: flex;
+    width: 30vw;
+    margin-left: 50vw;
+    margin-top: -12vw;
+    border-radius: 2vw;
+    border:1px solid white;
+    box-shadow: 0.5vw 0.5vw rgba(17, 17, 17, 0.664);
+}
+
+.ahref{
+    width: 0;
+}
+
+
+
+
+
+@media (max-width:1200px) {
+
+    .projects-body{
+        margin-top: 20vw;
+    }
+
+        .pro-container{
+            margin-left:8vw;
+        }
+
+    .myp{
+       
+        font-size: 5.8vw;
+        color: whitesmoke;
+    }
+    
+    .icon3{
+        font-size: 9vw;
+        
+      }
+
+      .project-text{
+        display: flex;
+        margin-top: 2vw;
+        margin-left:12vw;
+        margin-right:1vw;
+        
+        
+    }
+
+    .name-site{
+        color:white ;
+        font-size: 7vw;
+        margin-left: 10vw;
+        display: flex;
+        font-family: 'Teko', sans-serif;
+    }
+    
+    .name-type{
+        color:white;
+        font-size: 6vw;
+        margin-left: 20vw;
+        display: flex;
+        font-family: 'Teko', sans-serif;
+    } 
+
+    .about-website{
+        font-size:5.8vw;
+        margin-left: 10vw;
+        margin-right:10vw;
+    }
+
+
+
+    .sites{
+        width: 60vw;
+        margin-left: 12vw;
+        margin-top: 2vw;
+    }
+
+
+}

@@ -1,0 +1,85 @@
+.intro-body{
+    margin-top: 3vw;
+    display: flex;
+    
+   
+}
+
+   .intro-content{
+    display: flex;
+    flex-direction: column;
+
+   }
+
+    .computer{
+        display: flex; 
+        margin-right:7vw ;   
+        object-fit: contain;
+    }
+
+    .hand{
+        width:20vw;
+       
+
+    }
+
+    .intro-name{
+            display: flex;
+            font-size: 3vw;
+            margin-left:12vw;
+            margin-right:1vw;
+            float: left;
+          /*color: whitesmoke;*/ /*dark mode*/
+            color: #242c36;
+        }
+
+
+    .intro-about{
+                
+                font-size: 1.4rem;
+                color:blanchedalmond ;
+                font-family: 'Source Code Pro', monospace;
+                border-radius: 0.2em;
+                margin-left:15vw ;
+                margin-right:8vw ;
+       }
+
+
+@media (max-width:1200px){
+
+    .intro-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-content{
+        margin-top: 20vw;
+    }
+
+
+    .intro-name{
+        display: flex;
+        margin-left: 18vw;
+        font-size: 6vw;
+        	
+    }
+
+
+    .intro-about{
+            font-size: 4vw;
+        
+            font-family: 'Source Code Pro', monospace;
+            border-radius: 0.2em;
+            margin-left:15vw ;
+            margin-right:8vw ;
+    }
+
+ 
+     .hand{
+        width:40vw;
+        margin-left:32vw ;
+
+     }
+
+
+}

@@ -1,0 +1,32 @@
+
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+
+}
+
+
+
+
+
+.bodylight{
+   
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.bodydark{
+     background-color: #242c63;
+     text-align: center;
+ }
+
+.content-area {
+	/*position: absolute;
+	top: 5vw;*/
+    
+    background-color: blanchedalmond; 
+    transition: background-color 0.9s ease-in-out 0s;
+	
+}
+
+

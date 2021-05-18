@@ -1,0 +1,273 @@
+.contact{
+    margin-top: 3vw;
+    width:98.5vw;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.icon2{
+    margin-left: 1.5vw; 
+    font-size: 4vw;
+}
+
+.eml{
+    color: rgb(18, 197, 182); /*dark mode*/
+    color: rgb(46, 4, 160);
+}
+
+.eml:hover{
+    text-decoration: none;
+    color: crimson; 
+
+}
+
+.get{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    /*color:blanchedalmond ;/*dark mode*/
+    color: rgb(32, 40, 77);
+    font-weight: bolder;
+    margin-left:12vw;
+    margin-right:1vw;
+    display: flex;
+}
+
+ 
+
+.info{
+    display: flex;
+    font-size: 3vw;
+    margin-left:12vw;
+    margin-right:1vw;
+    flex-direction: row;
+    float: left;
+    /*color: whitesmoke;	/*dark mode*/
+    color:black;
+}
+
+.bar1{
+    display: flex;
+}
+
+
+.bar2{
+    display: flex;
+    margin-left:12vw;
+    margin-right:1vw;
+}
+
+.bar3{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35vw;
+}
+
+
+.information{
+    padding: 1vw 1vw;
+    border-color: rgba(0,0,0,.1);
+    color: #5c5b66;
+    font-size: 1vw;
+    text-align: center;
+    width: 30vw;
+    margin-top:1vw;
+    border-radius: 0.5vw;
+}
+
+
+
+.touch{
+    padding: 1vw 1vw;
+    border-color: rgba(0,0,0,.1);
+    color: #5c5b66;
+    font-size: 1vw;
+    height: 6vw;
+    text-align: center;
+    width: 30vw;
+    margin-top:1vw;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    
+}
+
+
+
+
+.sub{
+   border-radius: 0.5vw;
+    margin-top: 1vw;
+    width: 10vw;
+    padding: 0.5vw;
+    height: 2.8vw;
+    margin-left: 20vw;
+    
+}
+
+
+
+
+
+.link{
+    font-size: 2.3em;  
+}
+
+
+
+
+.fa{
+    width:2.9rem;
+    margin-top: 0.3vw;
+    margin:1vw;
+}
+
+.in{
+    width:2.9rem;
+    margin-top: 0.3vw;
+}
+
+
+.tl{
+    width:2.9rem;
+    margin-top: 0.3vw;
+    margin:1vw;
+
+}
+
+
+
+
+
+@media (max-width:1200px){
+
+    .contact-container{
+
+        margin-left:8vw;
+        margin-top: 15vw;
+    }
+
+
+    .info{
+   
+    font-size: 5.8vw;
+  
+   }
+
+
+   .icon2{
+    font-size: 9vw;
+   }
+
+   .get-container{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .get{
+
+    font-size: 4vw;
+    margin-left:20vw;
+    margin-right:1vw;
+
+   }
+   
+   .eml{
+       
+    display: flex;
+    margin-top: vw;
+    font-size: 4vw;
+    margin-right: 10vw;
+       
+   }
+
+   .bar1{
+    flex-direction: column;
+   }
+
+   .bar2{
+    display: flex;
+    margin-left:25vw;
+    margin-right:1vw;
+
+    
+  }
+
+   
+  .link{
+    font-size: 1vw;  
+    
+    margin: 2vw;
+  }
+
+
+
+
+    .fa{
+        width:12vw;
+        margin-top: 0.3vw;
+        margin:1vw;
+    }
+
+    .in{
+        width:12.5vw;
+        margin-top: 1vw;
+    }
+
+
+    .tl{
+        width:12vw;
+        margin-top: 0.3vw;
+        margin:1vw;
+
+    }
+
+    .bar3{
+
+        margin-left: 30vw;
+        margin-right: 1vw;
+        margin-top: 3vw;
+    
+        
+    }
+
+    .information{
+        padding: 7vw 7vw;
+        font-size: 4vw;
+        width: 50vw;
+        margin-top:1vw;
+
+    }
+
+    .touch{
+        padding: 7vw 7vw;
+        height: 6vw;
+        text-align: center;
+        width: 50vw;
+        margin-top:1vw;
+        font-size: 4vw;
+        border-radius: 0.5vw;
+
+    }
+
+    .button-sub{
+        display: flex;
+        margin-top: -5vw;
+    }
+
+    .sub{
+         margin-top: 1vw;
+         width: 30vw;
+         padding: 6vw;
+         font-size: 4vw;
+         margin-left: 21vw;
+         
+     }
+        
+}
+
+
+
