@@ -1,5 +1,5 @@
 .contact{
-    margin-top: 3vw;
+    margin-top: 8vw;
     width:98.5vw;
     
     display: flex;
@@ -98,14 +98,30 @@
 
 
 
-.sub{
+/*.sub{
    border-radius: 0.5vw;
     margin-top: 1vw;
     width: 10vw;
     padding: 0.5vw;
     height: 2.8vw;
-    margin-left: 20vw;
+    margin-left: vw;
     
+}*/
+
+.pageclip-form{
+    
+    margin-right: 5vw;
+
+}
+
+.pageclip-form__submit{
+    margin-left: 20vw;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+    width: 10vw;
+    padding: 0.5vw;
+    height: 2.8vw;
+    background-color: whitesmoke;
 }
 
 
@@ -258,14 +274,21 @@
         margin-top: -5vw;
     }
 
-    .sub{
-         margin-top: 1vw;
-         width: 30vw;
-         padding: 6vw;
-         font-size: 4vw;
-         margin-left: 21vw;
-         
-     }
+    /*.pageclip-form__submit{
+        display: flex;
+        margin-left: 20vw;
+        border-radius: 0.5vw;
+        margin-top: 1vw;
+        width: 10vw;
+        padding: 7vw 7vw;
+        height: 2.8vw;
+        background-color: whitesmoke;
+    }
+
+    .spa{
+    display: flex;
+    }*/
+    
         
 }
 
