@@ -8,7 +8,7 @@ class Intro extends Component{
     render() {
         return (
   <Mycontext.Consumer>
-        {({theme})=> 
+        {({theme})=>  
 
                     <div className="intro-body">
                     <div className="intro-content">

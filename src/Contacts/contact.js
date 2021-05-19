@@ -4,7 +4,7 @@ import Instagram from './Insta.jpg';
 import Telegram from './Telegram.jpg';
 import { FcCallback } from "react-icons/fc";
 import Mycontext from '../contextfile/Mycon';
-import { Form, ModalBody } from 'react-bootstrap';
+
 
            
 
