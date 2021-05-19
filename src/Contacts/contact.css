@@ -109,10 +109,10 @@
 }*/
 
 .pageclip-form{
-    
-    margin-right: 5vw;
-
+ margin-right: 5vw;
 }
+
+
 
 .pageclip-form__submit{
     margin-left: 20vw;
@@ -243,9 +243,10 @@
 
     .bar3{
 
-        margin-left: 30vw;
+        margin-left: 34vw;
         margin-right: 1vw;
         margin-top: 3vw;
+        
     
         
     }
@@ -274,20 +275,22 @@
         margin-top: -5vw;
     }
 
-    /*.pageclip-form__submit{
+    .pageclip-form__submit{
         display: flex;
-        margin-left: 20vw;
+        margin-left: 29.5vw;
+        justify-content: center;
+        align-items: center;
         border-radius: 0.5vw;
         margin-top: 1vw;
-        width: 10vw;
-        padding: 7vw 7vw;
-        height: 2.8vw;
+        width:25vw;
+        padding: 5vw 5vw;
         background-color: whitesmoke;
     }
 
     .spa{
-    display: flex;
-    }*/
+     display: flex;
+     font-size: 3vw;
+    }
     
         
 }
