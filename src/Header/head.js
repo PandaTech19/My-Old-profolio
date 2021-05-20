@@ -8,7 +8,7 @@ import { BsMoon } from "react-icons/bs";
 import {Mycontext} from '../contextfile/Mycon';
 
 
-/*#3647b6 */
+
 class Head extends Component{
 
 
