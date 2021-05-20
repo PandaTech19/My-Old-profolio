@@ -97,6 +97,56 @@
     margin-top: 0.2vw;
 }
 
+.bar-container{
+    margin-top: 5vw;
+
+}
+
+.con-prog{
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+
+.bar-progress{
+    background-color: rgba(24, 23, 23, 0.74);
+    margin-top: 3vw;
+    margin-left:20vw;
+    margin-right:20vw;
+    border-radius: 2vw;
+}
+
+.pro1{
+    background-color: orangered;
+    border-radius: 1vw;
+    font-weight: bolder;
+    width: 75%;
+}
+
+.pro2{
+    background-color: skyblue;
+    border-radius: 1vw;
+    font-weight: bolder;
+    width: 75%;
+}
+
+
+.pro3{
+    background-color: rgba(255, 255, 0, 0.788);
+    border-radius: 1vw;
+    font-weight: bolder;
+    width: 55%;
+}
+
+.pro4{
+    background-color: green;
+    border-radius: 1vw;
+    font-weight: bolder;
+    width: 70%;
+
+}
+
+
 
 @media (max-width:1200px){
 
@@ -170,7 +220,6 @@
     .js{
         width: 10vw;
         margin-top: 2vw;
-    
     }
     
     .rc{
@@ -180,15 +229,43 @@
     
     .gih{
         width:15vw;
-        margin-right: 3vw;
-        
+        margin-right: 3vw; 
     }
     
     .git{
         width:13vw;
-        margin-right: 3vw;
-        
+        margin-right: 3vw; 
     }
 
+
+
+    .con-prog{
+        font-size: 5vw;
+        margin-left: 10vw;
+    }
+    
+    
+    .bar-progress{
+        margin-left:20vw;
+        margin-right:10vw;
+        border-radius: 5vw;
+    }
+    
+    .pro1{
+        border-radius: 5vw;
+    }
+    
+    .pro2{
+        border-radius: 5vw;  
+    }
+    
+    
+    .pro3{
+        border-radius: 5vw;   
+    }
+    
+    .pro4{
+        border-radius: 5vw;
+    }
     
 }

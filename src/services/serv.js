@@ -42,6 +42,29 @@ class Skill extends Component{
                  </div>
 
                 </div>
+                           
+                       <div className="bar-container">
+
+                            <p className="con-prog" style={{color: theme=="dark" ? "" : "white"}}>HTML</p>
+                            <div class="bar-progress" style={{background: theme=="dark" ? "" : "rgba(245, 222, 179, 0.199)"}}>
+                            <div className="pro1" style={{color: theme=="dark" ? "" : "black"}}>75%</div>
+                            </div><br/>
+
+                            <p className="con-prog" style={{color: theme=="dark" ? "" : "white"}} >CSS</p>
+                            <div class="bar-progress"style={{background: theme=="dark" ? "" : "rgba(245, 222, 179, 0.199)"}}>
+                            <div className="pro2"style={{color: theme=="dark" ? "" : "black"}} >75%</div>
+                            </div><br/>
+
+                            <p className="con-prog" style={{color: theme=="dark" ? "" : "white"}}>JS</p>
+                            <div class="bar-progress"style={{background: theme=="dark" ? "" : "rgba(245, 222, 179, 0.199)"}}>
+                            <div className="pro3"style={{color: theme=="dark" ? "" : "black"}}>55%</div>
+                            </div><br/>
+
+                            <p className="con-prog" style={{color: theme=="dark" ? "" : "white"}}>React.js</p>
+                            <div class="bar-progress"style={{background: theme=="dark" ? "" : "rgba(245, 222, 179, 0.199)"}}>
+                            <div className="pro4"style={{color: theme=="dark" ? "" : "black"}}>70%</div>
+                            </div><br/>
+                        </div>
 
                 <div id="PROJECTS"></div>
 
