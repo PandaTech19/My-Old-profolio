@@ -50,7 +50,7 @@ class App extends Component{
       
          
 
-          <div className="content-area" style={{background: this.state.theme=="dark" ? "" : "#242c36"}} >
+          <div className="content-area" style={{background: this.state.theme=="dark" ? "white" : "#242c36"}} >
         <switch>
 
           <Route exact path="/">

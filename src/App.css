@@ -1,6 +1,7 @@
 
 body{
-    background-color: blanchedalmond;
+    /*background-color: blanchedalmond;*/
+    background-color: antiquewhite;
     text-align: center;
 
 }
@@ -23,7 +24,6 @@ body{
 .content-area {
 	/*position: absolute;
 	top: 5vw;*/
-    
     background-color: blanchedalmond; 
     transition: background-color 0.9s ease-in-out 0s;
 	
