@@ -56,10 +56,12 @@ class App extends Component{
           <Route exact path="/">
               <Head/>
               <Intro />
-              <div id="SKILL"></div>
+              <div id="SKILL"/>
              <Service/>
                <Proj/>
+            
               <About/>
+              <div id="ABOUT"/>
               <Foot/> 
 
             </Route>

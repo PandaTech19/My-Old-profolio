@@ -38,7 +38,7 @@ class Pro extends Component {
                             to apply for visas throught out the european union, either  for work or
                             studying abroad.</p></strong>
 
-                            <a className="ahref" href="https://best-future.netlify.app/" id="ABOUT"><img className="sites" src={Fu} alt="Second-website" /></a>
+                            <a className="ahref" href="https://best-future.netlify.app/" ><img className="sites" src={Fu} alt="Second-website" /></a>
 
 
                             <div className="split" ></div> 
@@ -50,11 +50,11 @@ class Pro extends Component {
                             <strong> <p className="about-website" style={{ color: theme == "dark" ? "black" : "blanchedalmond" }}>Study-in-uk is a website that helps people to apply for a visa for studying in Ukraine
                             and picking what university is suitable for you, its also has two languages for both english and arabic speakers to understand .</p></strong>
 
-                            <a className="ahref" href="https://study-in-uk.netlify.app" id="ABOUT"><img className="sites" src={Su} alt="Second-website" /></a>
+                            <a className="ahref" href="https://study-in-uk.netlify.app"><img className="sites" src={Su} alt="Second-website" /></a>
 
 
 
-                            <div className="split" ></div>
+                            <div  className="split" ></div>
 
 
 
