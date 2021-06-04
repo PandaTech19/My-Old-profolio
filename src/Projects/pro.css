@@ -48,9 +48,10 @@
     font-family: 'Teko', sans-serif;
 } 
 
-.about-website{
+.about-website{ 
     
    /* color:blanchalmond ;/*dark mode*/
+   text-align: left;
    color: rgb(32,44,77);
     font-size: 2vw;
     margin-left: 2vw;
@@ -69,11 +70,13 @@
     display: flex;
     width: 30vw;
     margin-left: 50vw;
-    margin-top: -12vw;
+    margin-top: -16vw;
     border-radius: 2vw;
     border:1px solid white;
     box-shadow: 0.5vw 0.5vw rgba(17, 17, 17, 0.664);
+    
 }
+
 
 .ahref{
     width: 0;

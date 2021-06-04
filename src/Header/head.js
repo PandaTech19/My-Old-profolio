@@ -24,9 +24,9 @@ class Head extends Component{
             <Navbar.Toggle  className="toggle-btn" aria-controls="responsive-navbar-nav" />
 
             <Navbar.Collapse     id="responsive-navbar-nav">
-            <Nav className="navbar"> 
+            <Nav  className="navbar"> 
 
-                    <nav><HashLink  className="b"style={{color: theme=="dark" ? "black" : "white"}} smooth to="/#SKILL">Skills</HashLink></nav>
+                    <nav className="abc"><HashLink  className="b"style={{color: theme=="dark" ? "black" : "white"}} smooth to="/#SKILL">Skills</HashLink></nav>
                     <nav><HashLink  className="b"style={{color: theme=="dark" ? "black" : "white"}} smooth to="/#PROJECTS">Projects</HashLink></nav>
                     <nav><HashLink  className="b"style={{color: theme=="dark" ? "black" : "white"}} smooth to="/#ABOUT">About-me</HashLink></nav>
                     <nav><Link      className="b"style={{color: theme=="dark" ? "black" : "white"}} smooth to="/CONTACTS">Contact me</Link></nav>

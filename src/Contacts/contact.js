@@ -35,7 +35,7 @@ class Contact extends Component{
 
                             <input className="information" type={Text} name="name"  required  placeholder="Enter your Name..."></input>
                             <input className="information" type={Text} name="email" required  placeholder="Enter your email..."></input>
-                         <textarea className="touch"       type={Text} name="body"  required  placeholder="Ask me anything..." ></textarea>
+                             <textarea className="touch"       type={Text} name="body"  required  placeholder="Ask me anything..." ></textarea>
 
                             <button  class="pageclip-form__submit" type="submit" >
                               <span className="spa">Get in touch</span>

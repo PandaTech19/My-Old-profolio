@@ -7,7 +7,7 @@ import Mycontext from '../contextfile/Mycon';
 class About extends Component{  
     render() { 
         return (
-           <Mycontext.Consumer>
+           <Mycontext.Consumer> 
                {({theme})=>
 
                  <div className="about-wrapper"  >
