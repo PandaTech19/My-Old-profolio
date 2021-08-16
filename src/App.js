@@ -56,17 +56,18 @@ class App extends Component{
           <Route exact path="/">
               <Head/>
               <Intro />
+
               <div id="SKILL"/>
              <Service/>
                <Proj/>
-            
               <About/>
+              
               <div id="ABOUT"/>
               <Foot/> 
 
             </Route>
 
-          
+        </switch> 
             <Route exact path="/CONTACTS">
             <Head/>
               <Contact/>
@@ -79,7 +80,7 @@ class App extends Component{
   
       
     
-        </switch> 
+     
         
          </div>
          </Mycontext.Provider>
