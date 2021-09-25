@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Intro from './Introduction/intro';
 import Head from './Header/head';
 import Service from './services/serv';
@@ -7,7 +7,7 @@ import Proj from './Projects/pro'
 import About from './About-me/about'
 import Contact from './Contacts/contact';
 import Foot from './Footer/foot';
-import {Mycontext} from './contextfile/Mycon';
+import { Mycontext } from './contextfile/Mycon';
 
 
 /***************************************************************/
@@ -22,70 +22,55 @@ import './Contacts/contact.css';
 import './Footer/foot.css';
 
 
-class App extends Component{
+class App extends Component {
 
 
-      state = {
-        theme: "dark",
-      }
+  state = {
+    theme: "dark",
+  }
 
-        changeColor=()=>{
-        this.setState({   
-          theme:this.state.theme==="dark"? "light" :"dark",
-        
-        })
-      }
+  changeColor = () => {
+    this.setState({
+      theme: this.state.theme === "dark" ? "light" : "dark",
 
-     
+    })
+  }
 
 
-    render() {
+  render() {
 
-      return (
+    return (
 
-        <Router>
-      
-        
-          <Mycontext.Provider value={{theme:this.state.theme, Themechange:this.changeColor}}>
-      
-         
+      <Router>
+        <Mycontext.Provider value={{ theme: this.state.theme, Themechange: this.changeColor }}>
 
-          <div className="content-area" style={{background: this.state.theme=="dark" ? "white" : "#242c36"}} >
-        <switch>
+          <div className="content-area" style={{ background: this.state.theme == "dark" ? "white" : "#242c36" }} >
+            <switch>
 
-          <Route exact path="/">
-              <Head/>
-              <Intro />
+              <Route exact path="/">
+                <Head />
+                <Intro />
 
-              <div id="SKILL"/>
-             <Service/>
-               <Proj/>
-              <About/>
-              
-              <div id="ABOUT"/>
-              <Foot/> 
+                <div id="SKILL" />
+                <Service />
+                <Proj />
+                <About />
 
-            </Route>
+                <div id="ABOUT" />
+                <Foot />
 
-        </switch> 
+              </Route>
+
+            </switch>
             <Route exact path="/CONTACTS">
-            <Head/>
-              <Contact/>
-              <Foot/>
+              <Head />
+              <Contact />
+              <Foot />
             </Route>
-         
-        
 
-        
-  
-      
-    
-     
-        
-         </div>
-         </Mycontext.Provider>
-    
-    </Router>
+          </div>
+        </Mycontext.Provider>
+      </Router>
     );
   }
 

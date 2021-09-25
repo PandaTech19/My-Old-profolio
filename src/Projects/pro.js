@@ -59,7 +59,7 @@ class Pro extends Component {
 
                             <p className="name-site" style={{ color: theme == "dark" ? "black" : "white" }}>Movie picker</p>
 
-                            <p className="name-type" style={{ color: theme == "dark" ? "black" : "white" }}>Website:</p>
+                            <p className="name-type" style={{ color: theme == "dark" ? "black" : "white" }}>Website-sanity:</p>
 
                             <strong> <p className="about-website" style={{ color: theme == "dark" ? "black" : "blanchedalmond" }}>Movie picker is a website that helps you search for your favourite movie or series,
                              it also has sanity built in.
