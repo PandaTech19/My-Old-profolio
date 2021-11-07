@@ -63,7 +63,7 @@ class Pro extends Component {
 
                             <strong> <p className="about-website" style={{ color: theme == "dark" ? "black" : "blanchedalmond" }}>Movie picker is a website that helps you search for your favourite movie or series,
                              it also has sanity built in.
-                             so the client can edit, add , remove movies or series that they would want to be in te website.</p></strong>
+                             so the client can edit, add , remove movies or series that they would want to be in the website.</p></strong>
 
                             <a className="ahref" href="https://pick-a-movie.netlify.app"><img className="sites" src={Mv} alt="Second-website" /></a>
 
