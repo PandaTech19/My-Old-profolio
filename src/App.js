@@ -24,7 +24,6 @@ import './Footer/foot.css';
 
 class App extends Component {
 
-
   state = {
     theme: "dark",
   }
