@@ -43,7 +43,7 @@ class App extends Component {
       <Router>
         <Mycontext.Provider value={{ theme: this.state.theme, Themechange: this.changeColor }}>
 
-          <div className="content-area" style={{ background: this.state.theme == "dark" ? "white" : "#242c36" }} >
+          <div className="content-area" style={{ background: this.state.theme == "dark" ? "white" : "#212121" }} >
             <switch>
 
               <Route exact path="/">
