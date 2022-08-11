@@ -19,7 +19,7 @@ class Head extends Component {
                 {({ theme, Themechange }) =>
                     <div>
 
-                        <Navbar className="header" style={{ background: theme == "dark" ? "white" : "#242c36" }} collapseOnSelect expand="lg">
+                        <Navbar className="header" style={{ background: theme == "dark" ? "white" : "#212121" }} collapseOnSelect expand="lg">
                             <Navbar.Brand><HashLink to="/"><img src={Logo} className="log" alt="my-logo" /></HashLink></Navbar.Brand>
                             <Navbar.Toggle className="toggle-btn" aria-controls="responsive-navbar-nav" />
 
